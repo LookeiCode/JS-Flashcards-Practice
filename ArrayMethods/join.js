@@ -1,10 +1,7 @@
 //JOIN ARRAY METHOD
 
+// DOCUMENTATION
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join
-
-// CONSOLE COLORS
-import chalk from 'chalk';
-const y = chalk.yellow;
 
 // ***************************************************************************************************
 
@@ -44,3 +41,14 @@ console.log(joinedWords7);
 
 console.log(y("You can add spacing before and after a symbol too"));
 console.log(joinedWords8);
+
+
+
+
+
+
+
+
+// CONSOLE COLORS
+import chalk from 'chalk';
+const y = chalk.yellow;
