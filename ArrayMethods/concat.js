@@ -1,7 +1,11 @@
-//CONCAT ARRAY METHOD
+// CONCAT ARRAY METHOD
 
-// DOCUMENTATION
+// DOCUMENTATION (ctrl + click)
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat
+
+// CONSOLE COLORS (ignore)
+import chalk from 'chalk';
+const color = chalk.bgRed;
 
 // ***************************************************************************************************
 
@@ -40,15 +44,3 @@ const combinedArrays = arrayNum1.concat(arrayNum2);
 
 console.log('Combined arrays are:')
 console.log(combinedArrays);
-
-
-
-
-
-
-
-
-
-// CONSOLE COLORS
-import chalk from 'chalk';
-const y = chalk.yellow;

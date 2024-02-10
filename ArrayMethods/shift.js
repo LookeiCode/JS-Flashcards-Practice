@@ -1,7 +1,11 @@
-//SHIFT ARRAY METHOD
+// SHIFT ARRAY METHOD
 
-// DOCUMENTATION
+// DOCUMENTATION (ctrl + click)
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift
+
+// CONSOLE COLORS (ignore)
+import chalk from 'chalk';
+const color = chalk.bgRed;
 
 // ***************************************************************************************************
 
@@ -50,16 +54,3 @@ console.log(stringArray);
 
 console.log(removedString);
 // Expected output -> Hello
-
-
-
-
-
-
-
-
-
-
-// CONSOLE COLORS (ignore)
-import chalk from 'chalk';
-const y = chalk.yellow;

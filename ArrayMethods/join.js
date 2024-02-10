@@ -1,7 +1,11 @@
-//JOIN ARRAY METHOD
+// JOIN ARRAY METHOD
 
-// DOCUMENTATION
+// DOCUMENTATION (ctrl + click)
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join
+
+// CONSOLE COLORS (ignore)
+import chalk from 'chalk';
+const color = chalk.bgRed;
 
 // ***************************************************************************************************
 
@@ -18,37 +22,26 @@ const joinedWords8 = words.join(' + ');
 
 // LOGS
 
-console.log(y("Nothing inside separates the joined strings with a comma by default with no spacing"));
+console.log(color("Nothing inside separates the joined strings with a comma by default with no spacing"));
 console.log(joinedWords);
 
-console.log(y("Apostrophes with no space"));
+console.log(color("Apostrophes with no space"));
 console.log(joinedWords2);
 
-console.log(y("You can uses symbols such as dashes"));
+console.log(color("You can uses symbols such as dashes"));
 console.log(joinedWords3);
 
-console.log(y("And underscores"));
+console.log(color("And underscores"));
 console.log(joinedWords4);
 
-console.log(y("And commas, etc..."));
+console.log(color("And commas, etc..."));
 console.log(joinedWords5);
 
-console.log(y("You can also separate the joined strings with apostrophes with a space"));
+console.log(color("You can also separate the joined strings with apostrophes with a space"));
 console.log(joinedWords6);
 
-console.log(y("You can even add a symbol (such as a comma) followed by a space"));
+console.log(color("You can even add a symbol (such as a comma) followed by a space"));
 console.log(joinedWords7);
 
-console.log(y("You can add spacing before and after a symbol too"));
+console.log(color("You can add spacing before and after a symbol too"));
 console.log(joinedWords8);
-
-
-
-
-
-
-
-
-// CONSOLE COLORS
-import chalk from 'chalk';
-const y = chalk.yellow;

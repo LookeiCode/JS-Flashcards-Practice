@@ -2,7 +2,7 @@
 Check back for updates and simply do a "git pull" to pull in the latest changes
 
 # NOTES
-There will be no outright explanations. Refer to the documentation. It's good practice to refer to the documentation and I ant to reinforce that.
+There will be no outright explanations. Refer to the documentation. It's good practice to refer to the documentation and I want to reinforce that.
 
 This repo is purely syntax. You should be able to figure it out after looking at it for a few minutes as I kept it very short and simple. If you're confused refer to the MDN and CAREFULLY READ THE DESCRIPTION and also review the syntax.
 
