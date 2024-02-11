@@ -54,3 +54,6 @@ console.log(stringArray);
 
 console.log(removedString);
 // Expected output -> Hello
+
+
+// THE POP() METHOD BEHAVES THE SAME WAY AS SHIFT() - EXCEPT IT APPLIES TO THE LAST ELEMENT OF AN ARRAY
