@@ -7,7 +7,12 @@
 import chalk from 'chalk';
 const color = chalk.bgRed;
 
+// INSTRUCTIONS: Simply CD into the "ArrayMethods" folder and run "node filename.js"
+//               Study each example and their results
+
 // ***************************************************************************************************
+
+// EXAMPLE 1 - SHIFT (WITH A VARIABLE)
 
 const array1 = [1, 2, 3, 4, 5]
 
@@ -21,13 +26,15 @@ console.log(array1);
 
 
 // NOTES *******
-// Assigning the method to a variable (L13) assigns the return value to that variable (whatever is returned)
+// Assigning the method to a variable (L14) assigns the return value to that variable (whatever is returned)
 // So since 1 is what's removed from the array, that's what's returned from the array and thus shiftedArray = 1
 
 // However, the source array itself has been mutated and 1 is removed.
 // So console logging the source array (array1) will log the array with the shift() method changes
 
-// ADDITIONAL NOTE *******
+
+// EXAMPLE 2 - SHIFT (WITHOUT A VARIABLE)
+
 // If you add another shift() method, even if not assigned, it will still remove an element from the array
 
 const array2 = [1, 2, 3, 4, 5]
@@ -44,7 +51,7 @@ console.log(array2);
 // The value isn't stored anywhere, but the source array is still affected and is now [3, 4, 5]
 
 
-// SHIFT() WITH STRINGS
+// EXAMPLE 3 - SHIFT WITH STRINGS
 
 const stringArray = ['Hello', 'Big', 'World']
 const removedString = stringArray.shift();

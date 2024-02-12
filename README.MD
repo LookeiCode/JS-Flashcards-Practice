@@ -9,3 +9,11 @@ This repo is purely syntax. You should be able to figure it out after looking at
 Once you feel you can understand the code use the flashcards to challenge your knowledge.
 
 https://www.brainscape.com/p/5P52R-LH-D0VIM
+
+
+# CHALK
+If you want to use colors in your console like I did this is the repo for CHALK!
+
+https://github.com/chalk/chalk
+
+It's very cool and useful for highlighting things or even debugging!

@@ -1,11 +1,14 @@
 // POP ARRAY METHOD
 
 // DOCUMENTATION (ctrl + click)
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop
 
 // CONSOLE COLORS (ignore)
 import chalk from 'chalk';
 const color = chalk.bgRed;
+
+// INSTRUCTIONS: Simply CD into the "ArrayMethods" folder and run "node filename.js"
+//               Study each example and their results
 
 // ***************************************************************************************************
 
@@ -19,6 +22,7 @@ console.log(array);
 
 console.log(color('The returned removed element from the array'));
 console.log(poppedElement);
+
 
 // EXAMPLE 2 - POP WITHOUT VARIABLE
 
