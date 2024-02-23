@@ -12,6 +12,7 @@ const color = chalk.bgRed;
 
 // ***************************************************************************************************
 
+
 const words = ['Tyler', 'Kristen', 'Jack', 'Jill']
 
 const joinedWords = words.join();

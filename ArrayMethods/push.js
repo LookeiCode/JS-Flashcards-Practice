@@ -13,6 +13,7 @@ const colorG = chalk.bgGreen;
 
 // ***************************************************************************************************
 
+
 // EXAMPLE 1 - PUSH (WITH A VARIABLE + ARGUMENTS)
 
 const array = [1, 2, 3]
@@ -38,7 +39,6 @@ console.log(array1);
 
 // EXAMPLE 3 - PUSH (WITH VARIABLE + NO ARGUMENTS)
 console.log(colorG('---------------------------------------------------------------------------------------------------------------------------'))
-
 
 const array2 = [1, 2, 3]
 const pushArray2 = array2.push()
