@@ -8,7 +8,7 @@ import chalk from 'chalk';
 const color = chalk.bgRed;
 
 // INSTRUCTIONS: Simply CD into the "ArrayMethods" folder and run "node filename.js"
-//               Study each example and their results
+//               Study each example and their results in the console
 
 // ***************************************************************************************************
 

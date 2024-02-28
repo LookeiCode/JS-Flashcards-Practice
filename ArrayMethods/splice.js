@@ -6,10 +6,9 @@
 // CONSOLE COLORS (ignore)
 import chalk from 'chalk';
 const color = chalk.bgRed;
-const colorG = chalk.bgGreen;
 
 // INSTRUCTIONS: Simply CD into the "ArrayMethods" folder and run "node filename.js"
-//               Study each example and their results
+//               Study each example and their results in the console
 
 // ***************************************************************************************************
 
@@ -35,7 +34,7 @@ months1.splice(0, 1, 'Dec')
 console.log(color('Ex2: Notice how our 3rd argument ("Dec") replaces the 0th index ("Jan")'))
 console.log(months1);
 
-// If you increase the middle argument, that's how many indexes from 0 your 3rd argument (the element you're inserting/replacing with) will replace.
+// If you increase the middle argument, that's how many indexes from 0 (could be any index number but we used 0 here) your 3rd argument (the element you're inserting/replacing with) will replace.
 
 const months2 = ['Jan', 'Feb', 'Mar', 'April', 'May']
 

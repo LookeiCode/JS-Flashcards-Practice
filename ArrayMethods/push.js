@@ -9,7 +9,7 @@ const color = chalk.bgRed;
 const colorG = chalk.bgGreen;
 
 // INSTRUCTIONS: Simply CD into the "ArrayMethods" folder and run "node filename.js"
-//               Study each example and their results
+//               Study each example and their results in the console
 
 // ***************************************************************************************************
 
