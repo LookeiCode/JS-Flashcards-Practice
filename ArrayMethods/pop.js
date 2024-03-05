@@ -6,6 +6,7 @@
 // CONSOLE COLORS (ignore)
 import chalk from 'chalk';
 const color = chalk.bgRed;
+const colorG = chalk.bgGreen;
 
 // INSTRUCTIONS: Simply CD into the "ArrayMethods" folder and run "node filename.js"
 //               Study each example and their results in the console
@@ -14,31 +15,36 @@ const color = chalk.bgRed;
 
 
 // EXAMPLE 1 - POP WITH VARIABLE
+console.log(colorG('------------------------------------------------------- EXAMPLE 1 ----------------------------------------------------------'))
 
 const array = [1, 2, 3]
 const poppedElement = array.pop();
 
-console.log(color('The (mutated) array after the pop method'));
+console.log(color('Ex1: The (mutated) array after the pop method'));
 console.log(array);
 
-console.log(color('The returned removed element from the array'));
+console.log(color('Ex1: The returned removed element from the array'));
 console.log(poppedElement);
 
 
+
 // EXAMPLE 2 - POP WITHOUT VARIABLE
+console.log(colorG('------------------------------------------------------- EXAMPLE 2 ----------------------------------------------------------'))
 
 const array1 = [1, 2, 3]
 array1.pop();
 
-console.log(color('Example 2 without the variable'));
+console.log(color('Ex2: Example 2 without the variable'));
 console.log(array1);
 
 
+
 // EXAMPLE 3 - POPPING WITH CONSOLE LOGS?!
+console.log(colorG('------------------------------------------------------- EXAMPLE 3 ----------------------------------------------------------'))
 
 const array2 = ['This', 'is', 'popping', 'arrays!']
 
-console.log(color('Demonstrating pop() with console logs'));
+console.log(color('Ex3: Demonstrating pop() with console logs'));
 console.log(array2.pop());
 console.log(array2)
 
@@ -55,5 +61,6 @@ console.log(array2)
 
 console.log(array2.pop());
 console.log(array2);
+
 
 // THE SHIFT() METHOD BEHAVES THE SAME WAY AS POP() - EXCEPT IT APPLIES TO THE FIRST ELEMENT OF AN ARRAY

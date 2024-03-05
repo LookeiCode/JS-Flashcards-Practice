@@ -26,3 +26,8 @@ dist-ssr
 # docs.md
 
 .env
+
+# files
+
+TEMPLATE.js
+TESTINGROUNDS.js

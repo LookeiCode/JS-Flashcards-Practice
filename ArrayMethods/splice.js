@@ -6,6 +6,7 @@
 // CONSOLE COLORS (ignore)
 import chalk from 'chalk';
 const color = chalk.bgRed;
+const colorG = chalk.bgGreen;
 
 // INSTRUCTIONS: Simply CD into the "ArrayMethods" folder and run "node filename.js"
 //               Study each example and their results in the console
@@ -14,6 +15,7 @@ const color = chalk.bgRed;
 
 
 // EXAMPLE 1 - SPLICE (NO VARIABLE + ADDING AN ELEMENT)
+console.log(colorG('------------------------------------------------------- EXAMPLE 1 ----------------------------------------------------------'))
 
 const months = ['Jan', 'Feb', 'Mar', 'April', 'May']
 
@@ -26,6 +28,7 @@ console.log(months);
 
 
 // EXAMPLE 2 - SPLICE (NO VARIABLE + REPLACING AN ELEMENT)
+console.log(colorG('------------------------------------------------------- EXAMPLE 2 ----------------------------------------------------------'))
 
 const months1 = ['Jan', 'Feb', 'Mar', 'April', 'May']
 
@@ -58,6 +61,7 @@ console.log(months3);
 
 
 // EXAMPLE 3 - SPLICE (NO VARIABLE + REMOVING AN ELEMENT)
+console.log(colorG('------------------------------------------------------- EXAMPLE 3 ----------------------------------------------------------'))
 
 const months4 = ['Jan', 'Feb', 'Mar', 'April', 'May']
 
@@ -91,6 +95,7 @@ console.log(someMonths);
 
 
 // EXAMPLE 4 - SPLICE (WITH VARIABLE + REMOVING ELEMENTS)
+console.log(colorG('------------------------------------------------------- EXAMPLE 4 ----------------------------------------------------------'))
 
 const months6 = ['Jan', 'Feb', 'Mar', 'April', 'May', 'June', 'July']
 
@@ -105,6 +110,7 @@ console.log(splicedMonths);
 
 
 // EXAMPLE 5 - SPLICE (WITH VARIABLE + REPLACING ELEMENTS)
+console.log(colorG('------------------------------------------------------- EXAMPLE 5 ----------------------------------------------------------'))
 
 const months7 = ['Jan', 'Feb', 'Mar', 'April', 'May', 'June', 'July']
 
@@ -119,6 +125,7 @@ console.log(splicedMonths1);
 
 
 // EXAMPLE 6 - SPLICE (WITH VARIABLE + ADDING ELEMENTS)
+console.log(colorG('------------------------------------------------------- EXAMPLE 6 ----------------------------------------------------------'))
 
 const months8 = ['Jan', 'Feb', 'Mar', 'April', 'May', 'June', 'July']
 
@@ -134,6 +141,7 @@ console.log(splicedMonths2);
 
 
 // EXAMPLE 7 - SPLICE (SPLICING FROM A SPLICED ARRAY + CONSOLE.LOG DEMO)
+console.log(colorG('------------------------------------------------------- EXAMPLE 7 ----------------------------------------------------------'))
 
 const months9 = ['Jan', 'Feb', 'Mar', 'April', 'May', 'June', 'July']
 
@@ -156,6 +164,7 @@ console.log(months9)
 
 
 // EXAMPLE 8 - SPLICE (ADDING USING NEGATIVES)
+console.log(colorG('------------------------------------------------------- EXAMPLE 8 ----------------------------------------------------------'))
 
 const months10 = ['Jan', 'Feb', 'Mar', 'April', 'May', 'June', 'July']
 
@@ -169,6 +178,7 @@ console.log(months10)
 
 
 // EXAMPLE 9 - SPLICE (REPLACING USING NEGATIVES)
+console.log(colorG('------------------------------------------------------- EXAMPLE 9 ----------------------------------------------------------'))
 
 const months11 = ['Jan', 'Feb', 'Mar', 'April', 'May', 'June', 'July']
 
@@ -181,6 +191,7 @@ console.log(months11)
 
 
 // EXAMPLE 10 - SPLICE (REMOVING USING NEGATIVES)
+console.log(colorG('------------------------------------------------------- EXAMPLE 10 ----------------------------------------------------------'))
 
 const months12 = ['Jan', 'Feb', 'Mar', 'April', 'May', 'June', 'July']
 
@@ -202,6 +213,7 @@ console.log(months13)
 
 
 // EXAMPLE 11 - SPLICE (SPREADING A ARRAY IN)
+console.log(colorG('------------------------------------------------------- EXAMPLE 11 ----------------------------------------------------------'))
 
 const months14 = ['Jan', 'Feb', 'Mar', 'April']
 const moreMonths = ['May', 'June', 'July']

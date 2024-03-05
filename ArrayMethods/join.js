@@ -6,12 +6,16 @@
 // CONSOLE COLORS (ignore)
 import chalk from 'chalk';
 const color = chalk.bgRed;
+const colorG = chalk.bgGreen;
 
 // INSTRUCTIONS: Simply CD into the "ArrayMethods" folder and run "node filename.js"
 //               Study each example and their results in the console
 
 // ***************************************************************************************************
 
+
+// EXAMPLE 1 - (MULTIPLE TYPES OF JOINING)
+console.log(colorG('------------------------------------------------------- EXAMPLE 1 ----------------------------------------------------------'))
 
 const words = ['Tyler', 'Kristen', 'Jack', 'Jill']
 
@@ -26,26 +30,26 @@ const joinedWords8 = words.join(' + ');
 
 // LOGS
 
-console.log(color("Nothing inside separates the joined strings with a comma by default with no spacing"));
+console.log(color("Nothing inside separates the joined strings with a comma by default with no spacing - ()"));
 console.log(joinedWords);
 
-console.log(color("Apostrophes with no space"));
+console.log(color("Apostrophes with no space - ('')"));
 console.log(joinedWords2);
 
-console.log(color("You can uses symbols such as dashes"));
+console.log(color("You can uses symbols such as dashes - (-)"));
 console.log(joinedWords3);
 
-console.log(color("And underscores"));
+console.log(color("And underscores - (_)"));
 console.log(joinedWords4);
 
-console.log(color("And commas, etc..."));
+console.log(color("And commas, etc... - (,)"));
 console.log(joinedWords5);
 
-console.log(color("You can also separate the joined strings with apostrophes with a space"));
+console.log(color("You can also separate the joined strings with apostrophes with a space - (' ')"));
 console.log(joinedWords6);
 
-console.log(color("You can even add a symbol (such as a comma) followed by a space"));
+console.log(color("You can even add a symbol (such as a comma) followed by a space - (, )"));
 console.log(joinedWords7);
 
-console.log(color("You can add spacing before and after a symbol too"));
+console.log(color("You can add spacing before and after a symbol too - ( + )"));
 console.log(joinedWords8);

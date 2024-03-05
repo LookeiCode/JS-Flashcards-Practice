@@ -15,6 +15,7 @@ const colorG = chalk.bgGreen;
 
 
 // EXAMPLE 1 - SLICE (WITH VARIABLE + ONLY START)
+console.log(colorG('------------------------------------------------------- EXAMPLE 1 ----------------------------------------------------------'))
 
 // You must use a variable (or console.log) to capture the return value which is the copy of the new array
 
@@ -31,6 +32,7 @@ console.log(animals);
 
 
 // EXAMPLE 2 - SLICE (WITH VARIABLE + WITH START & END)
+console.log(colorG('------------------------------------------------------- EXAMPLE 2 ----------------------------------------------------------'))
 
 const animals1 = ['cat', 'dog', 'mouse', 'bird', 'lion']
 
@@ -51,6 +53,7 @@ console.log(slicedArray3);
 
 
 // EXAMPLE 3 - SLICE (NO VARIABLE / NO CHANGE)
+console.log(colorG('------------------------------------------------------- EXAMPLE 3 ----------------------------------------------------------'))
 
 const animals2 = ['cat', 'dog', 'mouse', 'bird', 'lion']
 
@@ -63,6 +66,7 @@ console.log(animals2);
 
 
 // EXAMPLE 4 - SLICE (WITH CONSOLE LOG)
+console.log(colorG('------------------------------------------------------- EXAMPLE 4 ----------------------------------------------------------'))
 
 const animals3 = ['cat', 'dog', 'mouse', 'bird', 'lion']
 
@@ -76,6 +80,7 @@ console.log(animals3.slice(0, 3));
 
 
 // EXAMPLE 5 - SLICE (WITH NEGATIVES + ONLY START)
+console.log(colorG('------------------------------------------------------- EXAMPLE 5 ----------------------------------------------------------'))
 
 const animals4 = ['cat', 'dog', 'mouse', 'bird', 'lion']
 
@@ -93,6 +98,7 @@ console.log(slicedArray5);
 
 
 // EXAMPLE 6 - SLICE (WITH NEGATIVES + WITH START & END)
+console.log(colorG('------------------------------------------------------- EXAMPLE 6 ----------------------------------------------------------'))
 
 const animals5 = ['cat', 'dog', 'mouse', 'bird', 'lion']
 
@@ -105,6 +111,7 @@ console.log(slicedArray6);
 
 
 // EXAMPLE 7 - SLICE (WITH NEGATIVE START & POSITIVE END)
+console.log(colorG('------------------------------------------------------- EXAMPLE 7 ----------------------------------------------------------'))
 
 const animals6 = ['cat', 'dog', 'mouse', 'bird', 'lion'] 
 
@@ -152,6 +159,7 @@ console.log(slicedArray9);
 
 
 // EXAMPLE 8 - SLICE (WITH POSITIVE START & NEGATIVE END)
+console.log(colorG('------------------------------------------------------- EXAMPLE 8 ----------------------------------------------------------'))
 
 const animals7 = ['cat', 'dog', 'mouse', 'bird', 'lion']
 
@@ -166,6 +174,7 @@ console.log(sliceArray10);
 
 
 // EXAMPLE 9 - SLICING WITH A SLICED ARRAY
+console.log(colorG('------------------------------------------------------- EXAMPLE 9 ----------------------------------------------------------'))
 
 const animals8 = ['cat', 'dog', 'mouse', 'bird', 'lion']
 

@@ -1,4 +1,4 @@
-// CONCAT ARRAY METHOD
+// TOSPLICED ARRAY METHOD
 
 // DOCUMENTATION (ctrl + click)
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toSpliced
@@ -6,6 +6,7 @@
 // CONSOLE COLORS (ignore)
 import chalk from 'chalk';
 const color = chalk.bgRed;
+const colorG = chalk.bgGreen;
 
 // INSTRUCTIONS: Simply CD into the "ArrayMethods" folder and run "node filename.js"
 //               Study each example and their results in the console
@@ -18,11 +19,12 @@ const color = chalk.bgRed;
 
 
 // EXAMPLE 1 - TOSPLICED (NO VARIABLE)
+console.log(colorG('------------------------------------------------------- EXAMPLE 1 ----------------------------------------------------------'))
 
 const months = ['Jan', 'Feb', 'Mar', 'April', 'May']
 
 months.toSpliced();
-// OR
+// OR (no difference if you're not "capturing" the return with a variable or console.log)
 months.toSpliced(1, 3, 'CodeMonth!')
 
 console.log(color('Ex1: Notice how nothing happens to the original "source" array'))
@@ -32,6 +34,7 @@ console.log(months);
 
 
 // EXAMPLE 2 - TOSPLICED (WITH VARIABLE)
+console.log(colorG('------------------------------------------------------- EXAMPLE 2 ----------------------------------------------------------'))
 
 const months1 = ['Jan', 'Feb', 'Mar', 'April', 'May']
 
@@ -47,6 +50,7 @@ console.log(splicedMonths);
 
 
 // EXAMPLE 3 - TOSPLICED (WITH VARIABLE + ADDING EXTRA ELEMENTS)
+console.log(colorG('------------------------------------------------------- EXAMPLE 3 ----------------------------------------------------------'))
 
 // This applies to Splice as well (I just forgot to add it and don't feel like going back and changing all the variable names to fit it into the right example)
 
@@ -64,6 +68,7 @@ console.log(splicedMonths1);
 
 
 // EXAMPLE 4 - TOSPLICED (WITH CONSOLE.LOG)
+console.log(colorG('------------------------------------------------------- EXAMPLE 4 ----------------------------------------------------------'))
 
 const months3 = ['Jan', 'Feb', 'Mar', 'April', 'May']
 
