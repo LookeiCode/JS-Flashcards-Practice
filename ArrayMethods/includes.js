@@ -14,7 +14,7 @@ const colorG = chalk.bgGreen;
 // ***************************************************************************************************
 
 
-// EXAMPLE 1 - REVERSE (WITH VARIABLE)
+// EXAMPLE 1 - INCLUDES (WITH VARIABLE)
 console.log(colorG('------------------------------------------------------- EXAMPLE 1 ---------------------------------------------------------'))
 
 // Demonstrating a true return
@@ -40,7 +40,7 @@ console.log(arrReturn1);
 
 
 
-// EXAMPLE 2 - REVERSE (WITH A CONSOLE.LOG)
+// EXAMPLE 2 - INCLUDES (WITH A CONSOLE.LOG)
 console.log(colorG('------------------------------------------------------- EXAMPLE 2 ---------------------------------------------------------'))
 
 const array2 = [1, 2, 3, 4, 5];
@@ -51,7 +51,7 @@ console.log(array2.includes(6));
 
 
 
-// EXAMPLE 3 - REVERSE (USING NEGATIVE INTEGERS)
+// EXAMPLE 3 - INCLUDES (USING NEGATIVE INTEGERS)
 console.log(colorG('------------------------------------------------------- EXAMPLE 3 ---------------------------------------------------------'))
 
 const array3 = [1, 2, 3, 4, 5];
@@ -62,7 +62,7 @@ console.log(array3.includes(-3));
 
 
 
-// EXAMPLE 4 - REVERSE (USING FROMINDEX)
+// EXAMPLE 4 - INCLUDES (USING FROMINDEX)
 console.log(colorG('------------------------------------------------------- EXAMPLE 4 ---------------------------------------------------------'))
 
 // fromIndex is the second parameter of the includes method (refer to the MDN)
@@ -102,7 +102,7 @@ console.log(negArray.includes(-4, -7));
 
 
 
-// EXAMPLE 5 - REVERSE (0 AND -0)
+// EXAMPLE 5 - INCLUDES (0 AND -0)
 console.log(colorG('------------------------------------------------------- EXAMPLE 5 ---------------------------------------------------------'))
 
 const array5 = [0, 1, 2, 3, 4, 5];
@@ -113,7 +113,7 @@ console.log(array5.includes(-0));
 
 
 
-// EXAMPLE 6 - REVERSE (STRINGS/INTEGERS)
+// EXAMPLE 6 - INCLUDES (STRINGS/INTEGERS)
 console.log(colorG('------------------------------------------------------- EXAMPLE 6 ---------------------------------------------------------'))
 
 const array6 = [0, 1, 2, 3, 4, 5];
@@ -130,7 +130,7 @@ console.log(color('Ex6: And this logs false because the array has a string "3" b
 console.log(array7.includes(3));
 
 
-// EXAMPLE 7 - REVERSE (SPARSE ARRAYS)
+// EXAMPLE 7 - INCLUDES (SPARSE ARRAYS)
 console.log(colorG('------------------------------------------------------- EXAMPLE 7 ---------------------------------------------------------'))
 
 const array8 = [0, 1,  , 3,  , 5];
