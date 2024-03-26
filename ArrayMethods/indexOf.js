@@ -58,7 +58,7 @@ console.log(array2.indexOf("Mouse"));
 
 
 
-// EXAMPLE 4 - INDEXOF (2ND PARAMETER (START) )
+// EXAMPLE 4 - INDEXOF (2ND PARAMETER (START))
 console.log(colorG('------------------------------------------------------- EXAMPLE 4 ---------------------------------------------------------'))
 
 // if the element you're searching for is before your start parameters index
@@ -78,6 +78,10 @@ console.log(color('Ex4: There\'s two "bison" in the array'));
 console.log(color('It finds the "bison" at index 4 but not the one at index 1 since we start the method at index 2'));
 const findIndex3 = beasts.indexOf('bison', 2);
 console.log(findIndex3);
+
+// If the start index is the same index as the element you're searching for it'll still return that elements index
+
+
 
 // EXAMPLE 5 - INDEXOF (ELEMENT DOESN'T EXIST)
 console.log(colorG('------------------------------------------------------- EXAMPLE 5 ---------------------------------------------------------'))
@@ -108,3 +112,8 @@ const findIndex6 = array5.indexOf(2);
 console.log(color('Ex6: This is how you find the index of integers in an array using indexOf - no quotes'));
 console.log(color('It\'s a common little mistake to forget this'));
 console.log(findIndex6);
+
+
+// Refer to the MDN for other use cases such as:
+// Finding all occurrences of an element in an array
+// Finding if an element exists in the array or not and updating the array
